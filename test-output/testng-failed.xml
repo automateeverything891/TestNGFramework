@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.framework.testcases.TC_003_Validate_Contacts_Page">
+        <methods>
+          <include name="tC_003_Validate_Contacts_Page"/>
+          <include name="afterMethod"/>
+          <include name="endReport"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.framework.testcases.TC_003_Validate_Contacts_Page -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

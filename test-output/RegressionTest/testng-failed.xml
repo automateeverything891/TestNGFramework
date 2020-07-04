@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [RegressionTest]">
+  <listeners>
+    <listener class-name="com.framework.listeners.Listeners"/>
+    <listener class-name="com.framework.listeners.RetryListeners"/>
+  </listeners>
+  <test name="LoginTest(failed)">
+    <classes>
+      <class name="com.framework.testcases.TC_001_Validate_Login_Page">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="tC_001_Validate_Login_Page" invocation-numbers="0"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.framework.testcases.TC_001_Validate_Login_Page -->
+    </classes>
+  </test> <!-- LoginTest(failed) -->
+</suite> <!-- Failed suite [RegressionTest] -->

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="RegressionTest" duration-ms="90862" started-at="2020-07-04T04:19:14Z" finished-at="2020-07-04T04:20:45Z">
+    <groups>
+    </groups>
+    <test name="Validate Login Page" duration-ms="23443" started-at="2020-07-04T04:19:14Z" finished-at="2020-07-04T04:19:38Z">
+      <class name="com.framework.testcases.TC_001_Validate_Login_Page">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.framework.testcases.TC_001_Validate_Login_Page@4686afc2]" name="beforeMethod" is-config="true" duration-ms="15" started-at="2020-07-04T09:49:14Z" finished-at="2020-07-04T09:49:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.framework.testcases.TC_001_Validate_Login_Page.tC_001_Validate_Login_Page(java.util.Hashtable) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="tC_001_Validate_Login_Page(java.util.Hashtable)[pri:1, instance:com.framework.testcases.TC_001_Validate_Login_Page@4686afc2]" name="tC_001_Validate_Login_Page" duration-ms="22638" started-at="2020-07-04T09:49:14Z" data-provider="getData" finished-at="2020-07-04T09:49:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Status=, Password=Jakay07@, Runmode=Y, Expected_Result=Jakay M, Email=josephkuruvilla891@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tC_001_Validate_Login_Page -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.framework.testcases.TC_001_Validate_Login_Page@4686afc2]" name="afterMethod" is-config="true" duration-ms="731" started-at="2020-07-04T09:49:37Z" finished-at="2020-07-04T09:49:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tC_001_Validate_Login_Page status=SUCCESS method=TC_001_Validate_Login_Page.tC_001_Validate_Login_Page(java.util.Hashtable)[pri:1, instance:com.framework.testcases.TC_001_Validate_Login_Page@4686afc2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:com.framework.testcases.TC_001_Validate_Login_Page@4686afc2]" name="endReport" is-config="true" duration-ms="0" started-at="2020-07-04T09:49:38Z" finished-at="2020-07-04T09:49:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- com.framework.testcases.TC_001_Validate_Login_Page -->
+    </test> <!-- Validate Login Page -->
+    <test name="Validate Calendar Page" duration-ms="45769" started-at="2020-07-04T04:19:38Z" finished-at="2020-07-04T04:20:24Z">
+      <class name="com.framework.testcases.TC_002_Validate_Calendar_Page">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.framework.testcases.TC_002_Validate_Calendar_Page@46cdf8bd]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2020-07-04T09:49:38Z" finished-at="2020-07-04T09:49:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.framework.testcases.TC_002_Validate_Calendar_Page.tC_002_Validate_Calendar_Page() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="tC_002_Validate_Calendar_Page()[pri:2, instance:com.framework.testcases.TC_002_Validate_Calendar_Page@46cdf8bd]" name="tC_002_Validate_Calendar_Page" duration-ms="45644" started-at="2020-07-04T09:49:38Z" finished-at="2020-07-04T09:50:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tC_002_Validate_Calendar_Page -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.framework.testcases.TC_002_Validate_Calendar_Page@46cdf8bd]" name="afterMethod" is-config="true" duration-ms="120" started-at="2020-07-04T09:50:23Z" finished-at="2020-07-04T09:50:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tC_002_Validate_Calendar_Page status=SUCCESS method=TC_002_Validate_Calendar_Page.tC_002_Validate_Calendar_Page()[pri:2, instance:com.framework.testcases.TC_002_Validate_Calendar_Page@46cdf8bd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:com.framework.testcases.TC_002_Validate_Calendar_Page@46cdf8bd]" name="endReport" is-config="true" duration-ms="1" started-at="2020-07-04T09:50:24Z" finished-at="2020-07-04T09:50:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- com.framework.testcases.TC_002_Validate_Calendar_Page -->
+    </test> <!-- Validate Calendar Page -->
+    <test name="Validate Contacts Page" duration-ms="21594" started-at="2020-07-04T04:20:24Z" finished-at="2020-07-04T04:20:45Z">
+      <class name="com.framework.testcases.TC_003_Validate_Contacts_Page">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.framework.testcases.TC_003_Validate_Contacts_Page@1530c739]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-07-04T09:50:24Z" finished-at="2020-07-04T09:50:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.framework.testcases.TC_003_Validate_Contacts_Page.tC_003_Validate_Contacts_Page() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="tC_003_Validate_Contacts_Page()[pri:3, instance:com.framework.testcases.TC_003_Validate_Contacts_Page@1530c739]" name="tC_003_Validate_Contacts_Page" duration-ms="21419" started-at="2020-07-04T09:50:24Z" finished-at="2020-07-04T09:50:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tC_003_Validate_Contacts_Page -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.framework.testcases.TC_003_Validate_Contacts_Page@1530c739]" name="afterMethod" is-config="true" duration-ms="171" started-at="2020-07-04T09:50:45Z" finished-at="2020-07-04T09:50:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tC_003_Validate_Contacts_Page status=SUCCESS method=TC_003_Validate_Contacts_Page.tC_003_Validate_Contacts_Page()[pri:3, instance:com.framework.testcases.TC_003_Validate_Contacts_Page@1530c739] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:com.framework.testcases.TC_003_Validate_Contacts_Page@1530c739]" name="endReport" is-config="true" duration-ms="1" started-at="2020-07-04T09:50:45Z" finished-at="2020-07-04T09:50:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- com.framework.testcases.TC_003_Validate_Contacts_Page -->
+    </test> <!-- Validate Contacts Page -->
+  </suite> <!-- RegressionTest -->
+</testng-results>
